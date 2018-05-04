@@ -2,12 +2,363 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
 }
 body {
-    background-color:#00e6e6;
+    background: linear-gradient(to bottom, #0066ff 0%, #0033cc 100%);
+    height: 1000px;
+    overflow-y: hidden;
 }
+
+#mConteiner {
+    width: 325px;
+    height: auto;
+    margin: 100px auto;
+    background-color: white;
+    box-shadow: 0 0 15px 2px rgba(255, 255, 255, 0.2);
+}
+
+.top1Content {
+    display: flex;
+    }
+
+  .nameCalc {
+    display: flex;
+    flex-grow: 1;
+    padding: 8px 30px 8px 8px;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    }
+
+  .minButton{
+    margin: 0px;
+    font-size: 17px;
+    height: 30px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    }
+  .minButton:hover {
+    background-color: LightGrey;
+    }
+
+  .fullButton {
+    margin: 0px;
+    font-size: 17px;
+    height: 30px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    }
+
+  .fullButton:hover {
+    background-color: LightGrey;
+    }
+
+  .exitButton {
+    margin: 0px;
+    font-size: 17px;
+    height: 30px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    }
+  .exitButton:hover {
+    background-color: LightGrey;
+    }
+
+.top2Content {
+    display: flex;
+    }
+
+  .menuButton {
+    margin: 0px;
+    font-size: 17px;
+    height: 30px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    }
+  .menuButton:hover {
+    background-color: LightGrey;
+    }
+
+  .menuName {
+    display: flex;
+    flex-grow: 1;
+    padding: 0px 50px 0px 50px;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    }
+
+  .historyButton {
+    margin: 0px;
+    font-size: 17px;
+    height: 30px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    }
+
+  .historyButton:hover {
+    background-color: LightGrey;
+    }
+
+.calContent {
+    padding: 30px 10px 30px 30px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: right;
+    font-family: sans-serif;
+    }
+
+.mid1Content {
+    display: flex;
+    }
+
+ .Mbutton {
+    display: flex;
+    flex-grow: 1;
+    padding: 5px 10px 5px 15px;
+    font-size: 15px;
+    color: LightGrey;
+    cursor: pointer;
+    }
+
+  .Mbutton:hover {
+    color: black;
+    }
+
+.mid2Content {
+    display: flex;
+    }
+
+  .matTopNumber1{
+    margin: 0px;
+    font-size: 17px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 18px;
+    }
+
+  .matTopNumber1:hover {
+    background-color: LightGrey;
+    }
+  .matTopNumber2{
+    margin: 0px;
+    font-size: 19px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 18px;
+    }
+
+  .matTopNumber2:hover {
+    background-color: LightGrey;
+    }
+  .matTopNumber3{
+    margin: 0px;
+    font-size: 17px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 18px;
+    }
+
+  .matTopNumber3:hover {
+    background-color: LightGrey;
+    }
+  .matTopNumber4{
+    margin: 0px;
+    font-size: 17px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 18px;
+    }
+  .matTopNumber4:hover {
+    background-color: LightGrey;
+    }
+
+.botContent {
+    background-color: #f2f2f2;
+    }
+
+.firstRow {
+    display: flex;
+    }
+ .matNumber1 {
+    padding: 20px 30px 20px 30px;
+    font-size: 18px;
+    flex-grow: 1;
+    cursor: pointer;
+    }
+ .matNumber2 {
+    padding: 20px 30px 20px 30px;
+    font-size: 18px;
+    flex-grow: 1;
+    cursor: pointer;
+    }
+ .matNumber3 {
+    padding: 20px 30px 20px 30px;
+    font-size: 20px;
+    flex-grow: 1;
+    cursor: pointer;
+    }
+ .matNumber4 {
+    padding: 20px 30px 20px 30px;
+    font-size: 24px;
+    flex-grow: 1;
+    cursor: pointer;
+    font-weight: bold;
+    }
+
+.secondRow {
+    display: flex;
+    }
+ .matNumber5 {
+    padding: 20px 30px 20px 30px;
+    font-size: 24px;
+    flex-grow: 1;
+    cursor: pointer;
+    font-weight: bold;
+    }
+ .matNumber6 {
+    padding: 20px 30px 20px 30px;
+    font-size: 24px;
+    flex-grow: 1;
+    cursor: pointer;
+    font-weight: bold;
+    }
+ .matNumber7 {
+    padding: 20px 30px 20px 30px;
+    font-size: 24px;
+    flex-grow: 1;
+    cursor: pointer;
+    font-weight: bold;
+    }
+ .matNumber8 {
+    padding: 20px 30px 20px 30px;
+    font-size: 24px;
+    flex-grow: 1;
+    cursor: pointer;
+    font-weight: bold;
+    }
+
+.thirdRow {
+    display: flex;
+    }
+ .matNumber9 {
+    padding: 20px 30px 20px 30px;
+    font-size: 24px;
+    flex-grow: 1;
+    cursor: pointer;
+    font-weight: bold;
+    }
+ .matNumber10 {
+    padding: 20px 30px 20px 30px;
+    font-size: 24px;
+    flex-grow: 1;
+    cursor: pointer;
+    font-weight: bold;
+    }
+ .matNumber11 {
+    padding: 20px 30px 20px 30px;
+    font-size: 24px;
+    flex-grow: 1;
+    cursor: pointer;
+    font-weight: bold;
+    }
+ .matNumber12 {
+    padding: 20px 30px 20px 30px;
+    font-size: 24px;
+    flex-grow: 1;
+    cursor: pointer;
+    font-weight: bold;
+    }
+
+.fourRow {
+    display: flex;
+    }
+ .matNumber13 {
+    padding: 20px 30px 20px 30px;
+    font-size: 24px;
+    flex-grow: 1;
+    cursor: pointer;
+    font-weight: bold;
+    }
+ .matNumber14 {
+    padding: 20px 30px 20px 30px;
+    font-size: 24px;
+    flex-grow: 1;
+    cursor: pointer;
+    font-weight: bold;
+    }
+ .matNumber15 {
+    padding: 20px 30px 20px 30px;
+    font-size: 24px;
+    flex-grow: 1;
+    cursor: pointer;
+    font-weight: bold;
+    }
+ .matNumber16 {
+    padding: 20px 30px 20px 30px;
+    font-size: 24px;
+    flex-grow: 1;
+    cursor: pointer;
+    font-weight: bold;
+    }
+
+.fifhtRow {
+    display: flex;
+    }
+ .matNumber17 {
+    padding: 20px 30px 20px 30px;
+    font-size: 24px;
+    flex-grow: 1;
+    cursor: pointer;
+    font-weight: bold;
+    }
+ .matNumber18 {
+    padding: 20px 30px 20px 30px;
+    font-size: 24px;
+    flex-grow: 1;
+    cursor: pointer;
+    font-weight: bold;
+    }
+ .matNumber19 {
+    padding: 20px 30px 20px 30px;
+    font-size: 24px;
+    flex-grow: 1;
+    cursor: pointer;
+    font-weight: bold;
+    }
+ .matNumber20 {
+    padding: 20px 30px 20px 30px;
+    font-size: 24px;
+    flex-grow: 1;
+    cursor: pointer;
+    font-weight: bold;
+    }
